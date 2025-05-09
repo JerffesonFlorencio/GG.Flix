@@ -1,0 +1,31 @@
+.header {
+    background-color: #333; /* Cor de fundo escura */
+    display: flex; /* Layout flexível */
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Alinhar verticalmente os itens */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+  }
+  
+  .header .logo {
+    font-size: 1.5em; /* Tamanho maior para o logo */
+    color: #4CAF50; /* Cor verde */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Negrito */
+    transition: color 0.3s ease; /* Transição suave para hover */
+  }
+  
+  .header .logo:hover {
+    color: #80E27E; /* Cor mais clara ao passar o mouse */
+  }
+  
+  .header .favoritos {
+    font-size: 1.2em; /* Tamanho do texto */
+    color: white; /* Cor branca */
+    text-decoration: none; /* Remove sublinhado */
+    transition: color 0.3s ease; /* Transição suave para hover */
+  }
+  
+  .header .favoritos:hover {
+    color: #4CAF50; /* Cor verde ao passar o mouse */
+  }

@@ -1,0 +1,91 @@
+.meus-filmes {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.meus-filmes h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #444;
+}
+
+.meus-filmes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.meus-filmes li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.meus-filmes li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.meus-filmes li span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.meus-filmes li div {
+  display: flex;
+  gap: 10px;
+}
+
+.meus-filmes a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.meus-filmes a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.meus-filmes button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.meus-filmes button:hover {
+  background-color: #c82333;
+}
+
+.meus-filmes span {
+  font-size: 1rem;
+  color: #666;
+}
+
+.meus-filmes span.empty {
+  font-size: 1.2rem;
+  color: #999;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}

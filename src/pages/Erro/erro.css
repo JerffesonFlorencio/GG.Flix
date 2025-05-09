@@ -1,0 +1,42 @@
+/* Estilo para o contêiner principal */
+.not-found {
+    height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex; /* Flexbox para centralizar */
+    flex-direction: column; /* Alinha itens verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Estilo para o título */
+  .not-found h1 {
+    font-size: 3em; /* Tamanho grande para o título */
+    color: #e74c3c; /* Cor vermelha para destacar o erro */
+    margin-bottom: 10px; /* Margem inferior */
+  }
+  
+  /* Estilo para o parágrafo */
+  .not-found p {
+    font-size: 1.2em; /* Tamanho médio para o texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+    color: #555; /* Cor cinza suave */
+  }
+  
+  /* Estilo para o link */
+  .not-found a {
+    font-size: 1em; /* Tamanho do texto */
+    color: white; /* Cor do texto */
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+  }
+  
+  /* Efeito ao passar o mouse no link */
+  .not-found a:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+  }

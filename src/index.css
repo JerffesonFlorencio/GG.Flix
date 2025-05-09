@@ -1,0 +1,17 @@
+*{
+  padding: auto;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}

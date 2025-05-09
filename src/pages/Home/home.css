@@ -1,0 +1,73 @@
+/* Estilo para o contêiner principal */
+.container {
+    max-width: 1200px; /* Largura máxima da página */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+  }
+  
+  .loading {
+    display: flex; /* Flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+  }
+
+
+  /* Estilo para a lista de filmes */
+  .lista-filmes {
+    display: grid; /* Cria um layout de grade */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsivo */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-top: 20px; /* Margem superior */
+  }
+  
+  /* Estilo para cada filme */
+  .lista-filmes article {
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que imagens ou conteúdo não ultrapassem os limites */
+    text-align: center; /* Centraliza texto */
+    padding: 10px; /* Espaçamento interno */
+    transition: transform 0.2s ease; /* Efeito de zoom ao passar o mouse */
+  }
+  
+  /* Efeito ao passar o mouse no artigo */
+  .lista-filmes article:hover {
+    transform: scale(1.05); /* Ligeiro zoom */
+  }
+  
+  /* Estilo para o título do filme */
+  .lista-filmes article strong {
+    font-size: 1.2em; /* Tamanho maior */
+    color: #333; /* Cor do texto */
+    display: block; /* Quebra de linha */
+    margin-bottom: 10px; /* Margem inferior */
+  }
+  
+  /* Estilo para a imagem */
+  .lista-filmes article img {
+    width: 100%; /* Imagem ocupa toda a largura */
+    height: auto; /* Mantém proporções */
+    border-radius: 5px; /* Arredonda levemente as bordas */
+    margin-bottom: 10px; /* Margem inferior */
+  }
+  
+  /* Estilo para o link */
+  .lista-filmes article a {
+    display: inline-block; /* Torna clicável como botão */
+    padding: 10px 15px; /* Espaçamento interno */
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho do texto */
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+  }
+  
+  /* Efeito ao passar o mouse no link */
+  .lista-filmes article a:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+  }
