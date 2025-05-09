@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-//https://api.themoviedb.org/3/authentication
+//https://api
 
 const api = axios.create({
-    baseURL: 'https://api.themoviedb.org/3',
+    baseURL: 'https://api.add.com',
 });
 
 export default api;
