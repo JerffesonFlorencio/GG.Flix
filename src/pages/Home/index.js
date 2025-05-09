@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import './home.css';
 
-//https://api.themoviedb.org/3/authentication
+//https://api
 
 function Home() {
   const [filmes, setFilmes] = useState([]);
@@ -15,7 +15,7 @@ function Home() {
     async function loadFilmes() {
       const response = await api.get("/movie/now_playing", {
         params:{
-          api_key: "dea02329103ee9ec2d73350bf644cb2f",
+          api_key: "Chave da API",
           language: "pt-BR",
           page: 1,
         }
@@ -45,7 +45,7 @@ function Home() {
           return(
             <article Key={filme.id}>
               <strong>{filme.title}</strong>
-              <img src={'https://image.tmdb.org/t/p/original' + filme.poster_path} alt={filme.title} />
+              <img src={'https://image.original' + filme.poster_path} alt={filme.title} />
               <Link to={`/filme/${filme.id}`}>Acessar</Link>
             </article>
           )
